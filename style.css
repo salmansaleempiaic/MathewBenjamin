@@ -1,0 +1,58 @@
+/* @font-face {
+  font-family: "academy Sans";
+  src: url("AcademySans-Regular.eot");
+  src: url("AcademySans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("AcademySans-Regular.woff2") format("woff2"),
+    url("AcademySans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "academySansExpanded";
+  src: url("AcademySansExpanded-Bold.eot");
+  src: url("AcademySansExpanded-Bold.eot?#iefix") format("embedded-opentype"),
+    url("AcademySansExpanded-Bold.woff2") format("woff2"),
+    url("AcademySansExpanded-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "academySansExpanded";
+  src: url("AcademySansExpanded-Extrabold.eot");
+  src: url("AcademySansExpanded-Extrabold.eot?#iefix")
+      format("embedded-opentype"),
+    url("AcademySansExpanded-Extrabold.woff2") format("woff2"),
+    url("AcademySansExpanded-Extrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+} */
+@font-face {
+  font-family: "academySans";
+  src: url("./fonts/AcademySans-Regular.eot"),
+    url("./fonts/AcademySans-Regular.woff"),
+    url("./fonts/AcademySans-Regular.woff2");
+}
+@font-face {
+  font-family: "academySansExpanded";
+  src: url("./fonts/AcademySansExpanded-Bold.eot"),
+    url("./fonts/AcademySansExpanded-Bold.woff"),
+    url("./fonts/AcademySansExpanded-Bold.woff2");
+}
+@font-face {
+  font-family: "academySansExpandedBold";
+  src: url("./fonts/AcademySansExpanded-Extrabold.eot"),
+    url("./fonts/AcademySansExpanded-Extrabold.woff"),
+    url("./fonts/AcademySansExpanded-Extrabold.woff2");
+}
+
+h1 {
+  font-family: "academySans";
+}
+h2 {
+  font-family: "academySansExpanded";
+}
+h3 {
+  font-family: "academySansExpandedBold";
+}
